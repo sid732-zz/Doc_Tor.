@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrivingLicense">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/link"
+                android:autoLink="all"
+                android:clickable="true"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Driving License :\n\nThe following list of documents are to be submitted along with the application form(form9):
+
+\n\nLearner's Licence.
+\nProof of address: Any one of the following document can be submitted as proof of address-
+\n1)Ration card.
+\n2)Passport.
+\n3)Voter's identity card (EPIC Card).
+\n4)Life insurance policy.
+\n5)Utility bills like electricity, telephone bill, gas bill.
+\n6)State or Central Government issued payslip.
+
+\n\nProof of age: any one of the following can be submitted as proof of age-
+\n1)Pan Card.
+\n2)School matriculation certificate.
+\n3)Voter's identity card (EPIC card).
+\n4)Passport.
+\n5)Birth certificate.
+\n6)Driving school certificate (for transport vehicle driving licence applicants).
+\n7)All documents pertaining to the vehicle to be used for the driving test.
+\n8)Passport-sized photograph.
+\n\nTo apply online
+\nhttps://sarathi.parivahan.gov.in/sarathiservice11/stateSelection.do\n\n\n\n
+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7365036231958715/2761986094"
+        tools:ignore="MissingConstraints">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

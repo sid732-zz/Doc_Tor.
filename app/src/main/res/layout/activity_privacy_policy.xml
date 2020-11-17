@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrivacyPolicy">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:background="#f97"
+                android:fontFamily="cursive"
+                android:text="Privacy Policy"
+
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="48dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.571"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:fadingEdge="horizontal|vertical"
+                android:gravity="fill_vertical"
+
+
+                android:layout_marginTop="36dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+
+                android:textColor="#000"
+                android:text="Kares Antralis built the Doc_Tor-- Apply for govt Documents and its Info app as a Free app. This SERVICE is provided by Kares Antralis at no cost and is intended for use as is. This page is used to inform visitors regarding my policies with the Information i provide and the external links. If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Doc_Tor-- Apply for govt Documents and its Info unless otherwise defined in this Privacy Policy.\n
+
+\nSecurity:\n
+We do not represent to any of the government authority. The information is given by ourself and not by any other source. The Links are taken from the official website for information purpose.
+\n\nLinks to Other Sites:
+\nThis Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+\n\nChanges to This Privacy Policy:
+I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. This policy is effective as of 2020-05-30
+\n\nContact Us:
+\nIf you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at connect.kares@gmail.com.\n\n\n"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7365036231958715/2761986094"
+        tools:ignore="MissingConstraints">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

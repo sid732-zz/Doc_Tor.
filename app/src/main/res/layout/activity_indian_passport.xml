@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndianPassport">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/link"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:autoLink="all"
+                android:clickable="true"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Indian Passport:\n\nA) WHILE APPLYING FOR A FRESH PASSPORT, ATTACH TWO COPIES OF THE FOLLOWING DOCUMENTS:\n
+
+
+\n\n1) PROOF OF ADDRESS (ATTACH ONE OF THE FOLLOWING):\n
+\nApplicant’s aadhar card , ration card, certificate from Employer of reputed companies on letter head,
+ water /telephone /electricity bill/ statement of running bank account/Income Tax Assessment Order /
+Election Commission ID card, Gas connection Bill, Spouse’s passport copy, parent’s passport copy in case of minors.
+ (NOTE: If any applicant submits only ration card as proof of address, it should be accompanied by one more proof of address out of the above categories).
+
+\n\n2) PROOF OF DATE OF BIRTH (ATTACH ONE OF THE FOLLOWING):
+\nBirth certificate issued by a Municipal Authority or district office of the Registrar of Births  Deaths;
+ Date of birth certificate from the school last attended by the applicant or any other recognized educational institution;
+ or an Affidavit sworn before a Magistrate/Notary stating date/place of birth by illiterate or semi-illiterate applicants.
+
+\n\nN.B.: In the case of applicants born on or after 26.01.89, only Birth Certificate issued by the Municipal Authority or the Office of the Registrar of Births Deaths is acceptable.
+
+\n\n3) CITIZENSHIP DOCUMENT IF APPLICANT IS A CITIZEN OF INDIA BY REGISTRATION OR NATURALIZATION.
+\n4) GOVERNMENT/PUBLIC SECTOR/STATUTORY BODY EMPLOYEES SHOULD SUBMIT “IDENTITY CERTIFICATE” IN ORIGINAL ALONG WITH STANDARD.
+\n5) IF THE APPLICANT IS ELIGIBLE FOR “ECNR” ATTACH ATTESTED COPY OF SUPPORTING DOCUMENT.
+\n6) IF THE APPLICANT WAS REPATRIATED AT GOVERNMENT COST, ENCLOSE DOCUMENTS TO SHOW THAT THE EXPENDITURE,
+ \nIF ANY, INCURRED BY THE GOVERNMENT OF INDIA ON HIS/HER REPATRIATION HAS BEEN FULLY REFUNDED TO THE GOVERNMENT OF INDIA, MINISTRY OF EXTERNAL AFFAIRS.
+\n7) IF THE APPLICANT WAS EVER DEPORTED TO INDIA, GIVE DETAILS OF EMERGENCY CERTIFICATE/PASSPORT
+
+
+
+\nB ) When applying for reissue of a passport after 10 years, attach:\n\n
+\nOld passport in original with self-attested photocopy of its first four and last four pages, including ECR/ECNR page.
+
+\nDocument mentioned at (A) (4), if applicable.
+
+\nDocument mentioned at (A) (5), if the old passport did not have ECNR stamp or it was issued when the applicant was a minor.
+
+\nIf there is any change in address, document mentioned at A (1).
+
+\nIf the old passport does not contain spouse name, attach copy of marriage certificate issued by the Registrar of Marriage or affidavits to support the same.
+
+
+
+\n\nC ) When applying for a minor’s passport attach:\n\n
+\nThere are different Annexure used to file the application for the minor child and for further details contact us to support you
+
+\nAttested photocopy of passport, if any, of both parents, applicable
+
+\nOriginal passports of parents should be presented for verification of particulars
+
+\nIf one parent is resident abroad, a sworn affidavit by the parent resident abroad attested by the Indian Mission along with affidavit from parent residing in India as well be submitted.
+
+\nD)PASSPORT SERVICE FOR ADOPTED CHILDREN\n\n
+
+\n1) IN CASE OF ADOPTED CHILDREN THE FOLLOWING DOCUMENTS ARE TO BE FURNISHED:
+\nValid adoption deed registered as per Indian laws
+
+\nIn the case of Christians, Muslims and Parsis, a court order granting guardianship and allowing the child to be taken out of the Country.
+
+\nCopy of the guarantee executed before the Court concerned.
+
+
+\nA ) CHANGE OF NAME Following- marriage, remarriage or divorce:
+
+\ni)A woman applying for change of name/surname in existing passport due to marriage must furnish:
+
+\n1)Photocopy of the Husband’s passport, if any, and
+\n2)An attested copy of marriage certificate issued by Registrar of Marriage OR an affidavit from the husband and wife along with a joint photograph.
+
+\nii)Divorcees applying for change of name OR for deletion of spouse’s name in existing passport must furnish
+
+\n1)Certified copy of Divorce degree.
+\n2)Deed poll/sworn affidavit
+
+\niii)Re-married applicants applying for change of name/spouse’s name must furnish:
+
+\n1)Divorce deed/death certificate as the case may be in respect of first spouse, and
+\n2)Document as at (1) above relating to second marriage
+\n3)In other circumstances for change of name, the applicant (both male and female) should furnish:
+\n4)Deed poll/sworn affidavit
+\n5)Paper cuttings of two leading daily newspapers in original (one daily newspaper should be of the area of applicant’s permanent and present address or nearby area)
+
+
+\n\nTo apply online
+\nhttps://portal1.passportindia.gov.in/AppOnlineProject/user/RegistrationBaseAction
+
+\n\n\n\n
+
+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7365036231958715/2761986094"
+        tools:ignore="MissingConstraints">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

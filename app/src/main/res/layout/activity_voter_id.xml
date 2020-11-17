@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VoterID">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/link"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:autoLink="all"
+                android:clickable="true"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Voter ID Card :\n
+                    \n\ni)Recent passport size photographs
+\n\n\nii)Address proof (any one of the following)
+\n\n1)Copy of your Passport
+\n2)Gas bill
+\n3)Water bill
+\n4)Ration Card
+\n5)Bank Passbook
+\n6)Aadhaar Card
+\n7)Copy of proof of age
+\n8)10th Standard Certificate
+\n9)Birth Certificate
+\n10)Pan Card
+\n11)Aadhaar Card
+\n12)Driving Licence
+\n13)Copy of Passport
+\n14)Kisan Card\n
+\niii)Identity proof (any one of the following)\n
+1)Pan Card
+\n2)Driving Licence
+\n3)Ration Card
+\n4)Passport Copy
+\n5)Bank Passbook with Photograph
+\n6)SSLC Certificate
+\n7)Student ID Card
+\n8)Aadhaar Card
+\n\nTo apply online
+\nhttps://www.nvsp.in/\n\n\nStep by step procedure to obtain a duplicate voter id card
+\n\n\nListed below are the Steps to Follow When Applying for a Duplicate Voter ID Card:
+
+\n]nVisit the electoral office nearest to your place of residence and collect a copy of Form EPIC-002, which is the application form for duplicate voter ID card.
+\n\nFill in the form with the relevant details such as name, address, voter ID card etc.
+\n\nAttach the required supporting documents and submit the form at the electoral office.
+\n\nOn submission, you will receive a reference number that you can use to track the status of voter Id application.
+\n\nYour application will be verified by the Electoral Officer and on successful verification, you will be issued with a duplicate voter’s ID card.
+\n\nYou will be notified regarding your application being processed and can collect your card in person from the electoral office.
+\n\nOnline Process to Apply for Duplicate Voter ID Card
+\n\nApplying for a duplicate voter ID card used to be a long process earlier, where you had to make multiple trips to the local electoral office to collect a form, submit it and track your application.
+
+\n\nThe Election Commission of Indi has now introduced an online application process for duplicate voter ID cards across all states and union territories. Now, you can apply for a duplicate card from the comfort of your home and complete all the formalities without having to visit the electoral office each time.
+
+\n\n\nProcess to Apply Online for a Duplicate Voter’s ID Card:
+
+\n\nDownload a copy of Form EPIC-002 which is the application form for issue of a duplicate voter ID card from your state’s Chief Electoral Officer's website.
+\n\nFill in the form and attach all the required documents as mentioned in the form such as FIR copy, proof of address, and proof of identity.
+\n\nSubmit the form to your local electoral office, whereupon you will be issued a reference number.
+\n\nYou can track your application status on the state election office website using this number.
+\n\nOnce you have submitted your form, it will be processed and verified by the electoral office.
+\n\nAfter successful verification, you will be notified and can go to the electoral office and collect your duplicate voter ID card.\n\n\n\n
+
+"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColorHighlight="#000E0505"
+                android:textColorHint="#00020202"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="3dp" />
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7365036231958715/2761986094"
+        tools:ignore="MissingConstraints">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

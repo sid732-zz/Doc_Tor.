@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BirthCertificate">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/link"
+                android:autoLink="all"
+                android:clickable="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FDFCFC"
+                android:enabled="true"
+                android:fadeScrollbars="true"
+                android:fadingEdge="horizontal|vertical"
+                android:scrollbarTrackHorizontal="@color/colorAccent"
+                android:gravity="fill_vertical"
+                android:text="Birth certificate for new borns\n
+     \n1)Parents birth certificates
+     \n2)Marriage certificate of the parents
+     \n3)Proof of birth letter in hospital
+     \n4)Parents' identity proof (for verification)\n\n\n
+     \nBirth certificate for adults\n
+\n1) your leaving certificate
+\n2)affidavit of your mother/father / uncle/aunty or elder brother,\nsister (any one) stating your birth date and year
+\n3) your family ration card\n\n\nStep by step procedure to submit application for duplicate birth certificate\n\n1)You need to have the following details which have to be filled in the application form:
+    \n*Your complete name
+
+    \n*The name of your parents, including first and last names. In the case of your mother's name, it will be her maiden name before marriage
+
+    \n*Your exact date of birth
+
+    \n*The address of your parents
+
+    \n*The place of birth where you were born
+
+\n\n2)Visit the office of the municipal \ncorporation in the city where you were born. \nIt is that specific city's municipal corporation which\n will have the record of the registration of birth.\n In case of different municipal zones/wards in various areas\n of a city, then you need to visit the zone/ward office of the area where you were born. For example, if you wish to apply for a duplicate copy of birth certificate in Mumbai, Maharashtra and you were born in that part of the city which comes under the G-South Ward of the BMC, then you have to apply to that ward. office
+
+\n\n3)You will need to pay a small fee for the issuing of the copy of the birth certificate. This fee varies from one State/city to another.
+
+\n\n4)On paying the fee, you will be given \nan application form in which you need to carefully fill in all the details.\n Here it is important to note that if your handwriting is not clear, you are likely to end up with a certificate with a lot of misspelt names! Hence it is a good idea to fill in the details in block letters to eliminate errors in names on the certificate. You can confirm if it is ok to write everything in block letters
+
+\n\n5)You will be issued a receipt and will be instructed when you can get the copy.\n\n
+ "
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#090505"
+                android:textSize="24sp"
+                android:visibility="visible" />
+
+
+
+
+        </ScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7365036231958715/2761986094">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

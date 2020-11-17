@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+            android:textColor="#FFFFFEFE"
+            android:id="@+id/Birth"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="44dp"
+            android:text="Birth Certificate"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/adhar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+
+            android:text="Adhar Card"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFEFE"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/caste"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:textColor="#FFFFFEFE"
+            android:id="@+id/caste"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:text="Caste Certificate"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:textColor="#FFFFFEFE"
+            android:id="@+id/income"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:text="Income Certificate"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Birth" />
+
+        <Button
+            android:textColor="#FFFFFEFE"
+            android:id="@+id/ration"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:text="Ration Card"
+            android:textSize="12dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/adhar" />
+
+        <Button
+            android:textColor="#FFFFFEFE"
+            android:id="@+id/voter"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:text="Voter ID Card"
+            android:textSize="12dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/caste" />
+
+        <Button
+            android:textColor="#FFFFFEFE"
+            android:id="@+id/marriage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:text="Marriage Certificate"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/income" />
+
+        <Button
+            android:id="@+id/driving"
+            android:textColor="#FFFFFEFE"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:text="Driving License"
+            android:textSize="12dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ration" />
+
+        <Button
+            android:id="@+id/passport"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:text="Indian Passport"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="12dp"
+            android:textColor="#FFFFFEFE"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/voter" />
+
+        <Button
+            android:id="@+id/pan"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:text="PAN CARD"
+            android:textSize="12dp"
+            android:textColor="#FFFFFEFE"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/marriage" />
+
+        <Button
+            android:textColor="#FFFFFEFE"
+            android:id="@+id/domicile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:text="DOMICILE CERTIFICATE"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/driving" />
+
+        <Button
+            android:id="@+id/death"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFEFE"
+            android:textStyle="bold"
+            android:text="DEATH CERTIFICATE"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/passport" />
+
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>>
+
+    </ScrollView>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7365036231958715/2761986094"
+        tools:ignore="MissingConstraints">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

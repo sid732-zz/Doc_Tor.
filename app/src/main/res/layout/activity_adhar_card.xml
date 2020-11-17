@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdharCard"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.android.com/apk/res/android ">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <TextView
+
+                android:id="@+id/link"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:autoLink="all"
+                android:clickable="true"
+                android:text="ADHAR CARD REQUIRED DOCUMENTS\n\n
+                        \nIdentity proof documents (should contain your name and photo).
+                        \nAddress proof documents (should contain your name and address).
+                        \nProof of relationship documents (should contain information of the head of the family)\n\n
+
+\nA] Proof of Identity (POI) Documents – Comprising Name and Photograph\n
+You can submit any of the following documents to ascertain your proof of identity(POI):
+
+\n\n1)PAN card.
+\n2)Passport.
+\n3)Voter ID.
+\n4)PDS Photo Card/Ration Card.
+\n5)Driving Licence.
+\n6)PSU-issued Service Photo ID Card/Government-issued Photo ID Card.
+\n7)Photo ID Card issued by a recognised institute of education.
+\n8)NREGS Job Card.
+\n9)Arms Licence.
+\n10)Photo Credit Card.
+\n11)Photo Bank ATM Card.
+\n12)Freedom Fighter Photo Card.
+\n13)Pensioner Photo Card.
+\n14)Kissan Photo Passbook.
+\n15)Department of Posts issued Address Card comprising name and photograph.
+\n16)ECHS/CGHS Photo Card.
+\n17)Certificate of Identity comprising photograph issued by a Tehsildar/Gazetted Officer on a letterhead.
+\n18)State/Union Territory Governments/Administrations issued handicapped medical certificate or Disability ID Card.
+\n19)Bhamashah Card.
+\n20)Certificate of Identity comprising photograph issued by an MLA/MLC/MP/Municipal Councillor on a letterhead.
+\n21)Certificate from the head of a recognised educational institution/warden/superintendent/matron.
+\n22)RSBY Card.
+\n23)Gazette notification in case of name change.
+\n24)SC/ST/OBC Certificate comprising photograph.
+\n25)SSLC book comprising photograph.
+\n26)Marriage Certificate comprising photograph.
+\n27)For rural areas - Certificate of Identity comprising photograph issued by the mukhiya or village panchayat head.
+
+
+\n\n\nB]Proof of Date of Birth (DOB) Documents
+\nYou can submit any of the following documents to ascertain your date of birth:
+
+\n\n1)Birth Certificate.
+\n2)Passport.
+\n3)SSLC Certificate/Book.
+\n4)PAN Card.
+\n5)A DOB Certificate on letterhead issued by a Group A Gazetted Officer.
+\n6)Marksheet issued by any University or Government Board.
+\n7)Government or PSU issued Photo ID Card containing date of birth.
+\n8)State/Central Pension Payment Order.
+\n9)Ex-Servicemen Contributory Health Scheme Photo Card or Central Government Health Scheme Photo Card.
+\n10)I-Card/Certificate comprising DOB and photograph signed and issued by a Government authority.
+\n11)Photo ID Card comprising DOB issued by a recognised educational institution.
+
+
+\n\n\nC]Proof of Relationship (POR) Documents – Comprising Details with Head of Family if Required
+You can submit any of the following details to verify your proof of relationship.\nPlease note that the document(s) you furnish may need to contain relationship details with the head of your family:
+
+\n\n1)Passport.
+\n2)PDS Card.
+\n3)State Government/ECHS/ ESIC/CGHS Medical Card.
+\n4)Army Canteen Card.
+\n5)Pension Card.
+\n6)MNREGA Job Card.
+\n7)Birth Certificate issued by Municipal Corporation, Registrar of Birth, or any other notified local body of the Government such as Tehsil, Taluk, etc.
+\n8)Family entitlement document issued by a State or the Central Government.
+\n9)Government-issued Marriage Certificate.
+\n10)Bhamashah Card.
+\n11)Department of Posts issued Address Card comprising name and photograph.
+\n12)Discharge slip/card issued by a government hospital in case of birth of a child.
+\n13)Certificate of Identity comprising photograph issued by an MLA/MLC/MP/Gazetted Officer/Municipal Councillor on a letterhead.
+\nFor rural areas – Certificate of Identity comprising photograph and relationship with the head of family issued by the mukhiya or village panchayat.
+
+
+\n\n\nD]Proof of Address (POA) Documents – Comprising Name and Address
+\nHere are the documents that are acceptable as proof of address:
+
+\n\n1)Passport.
+\n2)Passbook/Bank Statement.
+\n3)Ration Card.
+\n4)Driving Licence.
+\n5)Voter ID.
+\n6)Passbook/Post Office Account Statement.
+\n7)PSU-issued Service Photo ID Card/Government-issued Photo ID Card.
+\n8)Water bill (issued in the last 3 months).
+\n9)Electricity Bill (issued in the last 3 months).
+\n10)Gas Connection Bill (issued in the last 3 months).
+\n11)Telephone Landline Bill (issued in the last 3 months).
+\n12)Credit Card Statement (issued in the last 3 months).
+\n13)Property Tax Receipt (issued in the last 1 year).
+\n14)Insurance Policy.
+\n15)Signed Letter on letterhead comprising photograph issued by a registered company.
+\n16)Signed Letter on letterhead comprising photograph issued a bank.
+\n17)Photo ID comprising address/Signed Letter comprising photograph issued by a recognised educational institution.
+\n18)Arms Licence.
+\n19)ECHS/CGHS Card.
+
+\n20)School ID Card.
+\n21)SSLC Book comprising photograph.
+\n22)NREGS Job Card.
+\n23)Freedom Fighter Card.
+\n24)Pensioner Card.
+\n26)Bhamashah Card.
+\n27)Kissan Passbook.
+\n28)Certificate of Address comprising photo on letterhead issued by MLA/MP/Tehsildar/Gazetted Officer.
+\n29)Income Tax Assessment Order.
+\n30)Registered Lease/Sale/Rental Agreement.
+\n31)Vehicle Registration Certificate.
+\n32)Department of Posts issued Address Card comprising photograph.
+\n33)State Government issued Caste and Domicile Certificate comprising photograph.
+\n34)State/Union Territory Governments/Administrations issued handicapped medical certificate or Disability ID Card.
+\n35)Spouse’s Passport.
+\n36)Parents’ Passport in case of a minor.
+\n37)Allotment letter of accommodation issued by State/Central Government (issued in the last 3 years).
+\n38)Government issued Marriage Certificate comprising address.
+\n39)Certificate on letterhead issued by Head of Institution/Warden/Superintendent/Matron of recognised shelter homes for orphanages.
+\n40)ID Card issued by a recognised educational institution.
+\n41)Municipal Councillor issued certificate of address comprising photograph on letterhead.
+\n\n\nFor rural areas – Certificate of Address issued by the head of panchayat or an equivalent authority.
+
+\n\n
+Find an Aadhaar Enrolment Centre near you. If you reside in Tier I cities, you can find it at
+\nhttps://uidai.gov.in/images/Tier1_Cities_PECs.pdf
+\nYou can also find Aadhaar Enrolment Centres in other cities by visiting
+\nhttps://appointments.uidai.gov.in/easearch.aspx
+\nFill  the enrolment form (the form is also available online at
+\nhttps://uidai.gov.in/images/aadhaar_enrolment_correction_form_version_2.1.pdf\n\nTo re-apply if your Adhar card is lost:\n\nStep 1: Go to the official UIDAI website at https://resident.uidai.gov.in/find-uid-eid\nStep 2: Choose either “Aadhaar No (UID)” or “Enrolment No (EID)”.
+\nStep 3: Input basic information like the name, email address and mobile number registered with UID.
+\nStep 4: Type in the security code as displayed on the screen and click on the “Get OTP” button.
+\nStep 5: An OTP will be sent to the person’s registered mobile number/e-mail address.
+\nStep 6: Input the OTP received on the mobile number and click on the “Verify OTP” button.
+\nStep 7: Then, you will receive a message on your mobile number containing your Aadhaar or Enrolment number.
+\nStep 8: After getting the Aadhaar number or enrolment id, the user can visit the website at https://eaadhaar.uidai.gov.in/
+\nStep 9: You will be asked to select your Aadhaar Number (UID) or Enrolment ID (EID)
+\nStep 10: Input your Aadhaar number or Enrolment ID, full name, pin code, security text as shown in the tab and mobile number.
+\nStep 11: An OTP will be sent to the registered mobile number.
+\nStep 12: Input the OTP received on mobile in the “Enter OTP” tab and click on “Validate and Generate”
+\nStep 13: Your Aadhaar will be Generated as a PDF file.\n\n\n\n
+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </ScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7365036231958715/2761986094"
+        tools:ignore="MissingConstraints">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

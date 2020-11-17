@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MarrigeCertificate">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/link"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:autoLink="all"
+                android:clickable="true"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Marraige certificate :\n\nThe following documents must be attached while applying for the marriage certificate in Maharashtra:\n
+
+\n1)Application form
+\n2)Affidavit of the couple is needed in which the place of marriage occurred including the details of marriage date, marital status and nationality.
+\n3)Passport size photo and photograph of a marriage invitation card, if any.
+\n4)Residency proof of the Applicant
+\n5)Birth certificate of the groom (Age Proof)
+\n6)Birth certificate of the bride (Age Proof)
+\n7)If marriage happens at a religious place then the declaration by the priest.
+\n8)For divorced people, the order of divorce and verified copy of the death certificate is required in case of a widower/widow.
+\n\nTo apply online
+\nhttps://www.onlinemarriageregistration.com/ \n\n\n\n
+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="16dp" />
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7365036231958715/2761986094"
+        tools:ignore="MissingConstraints">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

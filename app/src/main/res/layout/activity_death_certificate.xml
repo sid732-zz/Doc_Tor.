@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeathCertificate">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/link"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:autoLink="all"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Death certificate :\n\nThe following are the information needed while applying for the certificate:
+
+\n1)Proof of birth of the deceased
+\n2)An affidavit specifying the time and date of the death
+\n3)The required fee in the form of court fee stamps
+\n4)A copy of the ration card.
+\n5)Aadhar Card.
+\n6)No Objection Certificate (NOC).
+\n\nNote: The person who is applying for a death certificate is required to provide the proof of relationship with the deceased person,
+complete address and proof of nationality.
+\n\nTo apply online(only for maharashtra)
+\nhttps://aaplesarkar.mahaonline.gov.in
+\n\n\n\n
+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="22sp"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="-5dp" />
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7365036231958715/2761986094"
+        tools:ignore="MissingConstraints">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

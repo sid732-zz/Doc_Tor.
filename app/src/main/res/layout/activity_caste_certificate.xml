@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CasteCertificate">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/link"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+
+                android:layout_marginBottom="10dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:text="Caste Certificate :\n\nThe following are the list of documents required for obtaining caste certificate in Maharashtra.
+
+\n\n1)Application form
+\n2)Residence proof
+\n3)Copy of birth certificate
+\n4)Copy of ration card
+\n5)Copy of income certificate
+\n6)Copy of voter ID card / electoral roll
+\n7)Aadhaar Card
+\n8)Photograph
+\n\nTo apply online(only for maharashtra)
+\nhttps://aaplesarkar.mahaonline.gov.in/en/Login/Certificate_Documents?ServiceId=1284\n\n\nTo re-apply for lost Caste Certificate:\n\n\nTo get caste certificate in Maharashtra you have to visit\n Tahasildar office in your Taluk.Collect the application and submit it with the\n following documents.
+
+\n\nResidence Proof (Ration Card /Rent / Maintenance Receipt / Landline Telephone Bill / Electricity Bill)
+\n\nSchool Leaving Certificate of Candidate.
+\n\nCaste Certificate of Parents i.e. Father/Grandfather/Aunty (Father’s Sister)/Uncle (Blood Relation).
+\n\nYou also need to provide an affidavit which states that you belong to particular Caste.
+
+\n\nYou will get with in 21 days of submitting the application.\n\n\n\n
+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                tools:layout_editor_absoluteX="-1dp"
+                tools:layout_editor_absoluteY="3dp" />
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7365036231958715/2761986094"
+        tools:ignore="MissingConstraints">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

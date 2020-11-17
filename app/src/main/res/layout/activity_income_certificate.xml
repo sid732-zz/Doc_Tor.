@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IncomeCertificate">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/link"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:autoLink="all"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Income Certificate:-
+        \n\n\nProof of Identity (Any -1)
+\n\n1) PAN Card
+\n2) Passport
+\n3) RSBY Card
+\n4) Aadhaar Card
+\n5) Voter ID Card
+\n6) MNREGA Job Card
+\n7) Driving License
+\n8) Photo of Applicant
+\n9) Identity card issued by Govt or Semi Govt organisations
+\n\n\nProof of Address (Any -1)
+\n\n1) Passport
+\n2) Water Bill
+\n3) Ration Card
+\n4) Aadhaar Card
+\n5) Voter ID Card
+\n6) Telephone Bill
+\n7) Driving License
+\n8) Electricity Bill
+\n9) Property Tax Receipt
+\n10) Extracts of 7/12 and 8 A/ Rent Receipt
+\n\n\nOther Documents (Any -1)
+\n\n1) For getting Medical Facility requires health/medical officer's certificate
+\n\n\nAge Proof (In Case of Minor) (Any -1)
+\n\n1) SFC Certificate
+\n2) Birth Certificate
+\n3) Bonafide Certificate
+\n4) School Leaving Certificate
+\n5) Extract from primary school entry
+\n\n\nProof of Income (Any -1)
+\n\n1) Income tax statement letter
+\n2) Circle Officer Verification report
+\n3) If Recieved Salary Provide Form no16
+\n4) Retirement/Salary holders Bank Certificate
+\n5) If applicant is owner of the land then 7/12 to yield 8-A Talathi report
+\n\n\nMandatory Documents(All Mandatory)
+\n\n1) Self-Declaration
+
+\n\nTo apply online(only for maharashtra):
+\nhttps://aaplesarkar.mahaonline.gov.in/en/Login/Certificate_Documents?ServiceId=1251\n\n\n\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="3dp" />
+
+
+
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7365036231958715/2761986094"
+        tools:ignore="MissingConstraints">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

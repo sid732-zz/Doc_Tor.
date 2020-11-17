@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RationCard">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/link"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:autoLink="all"
+                android:clickable="true"
+                android:text="Ration card :\n
+        \nRequired Documents:
+
+\n1)Application form
+\n2)Passport-sized photographs of the head of your family attested by a gazetted officer/MLA/MP/Municipal Councellor
+\n3)Residence Proof
+\n4)Surrender/Deletion Certificate of the previous Ration Card, if exists
+\n5)Aadhaar Card
+\n\nTo apply online(only for maharashtra)
+\nhttp://mahafood.gov.in/website/english/Download.aspx\n\n\nIn any case, you lost your Ration card then you have to know that you can get Duplicate Ration card.\n\n You can get another Ration card either through online or offline procedures. \n\nJust follow the below steps which explain the procedure of getting a Ration card online or offline.\n\n The only difference is that you have to visit the website if you are applying online or you have to visit the Public Distribution System (PDS) office near you.\n\n Visit the Official website or the PDS Office.\n\n Take the application form regarding the Lost Ration Card.\n\n Fill up the details in the form with the appropriate information.\n\n The details you entered in the form should be correct and as per in your Proof Documents otherwise,\n your application might get rejected.\n\nThe details should be entered in their respective columns. You should also mention the cause of applying for a Duplicate Ration card. Attach the proof documents to the Application form. Submit the application form to the officials or on the website. Make sure you attached the photocopies of the Proof Documents so that your application won't get rejected. After you submit the application form it is verified from every detail to all the documents you have attached to the application form. After a verification procedure conducted to your application form, they will approve your cause and provide you with the new or Duplicate Ration card based on your interests. The cause should be reasonable like Lost your Raion card and some others. Your new Ration card will be delivered to you to the address you mentioned on the application form. It can take from 2-3 weeks of working days to get a new or Duplicate Ration card.
+
+Read more at: http://www.lawyersclubindia.com/forum/Ration-card-lost-What-to-do--39231.asp
+
+\n\nRead more at: http://www.lawyersclubindia.com/forum/Ration-card-lost-What-to-do--39231.asp
+
+Read more at: http://www.lawyersclubindia.com/forum/Ration-card-lost-What-to-do--39231.asp\n\n\n\n
+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColorHint="#080809"
+                tools:layout_editor_absoluteX="-3dp"
+                tools:layout_editor_absoluteY="3dp" />
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7365036231958715/2761986094"
+        tools:ignore="MissingConstraints">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

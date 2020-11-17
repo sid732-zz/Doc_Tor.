@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PanCard">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/link"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:autoLink="all"
+                android:clickable="true"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Pan Card :\n\nI]Identity proof documents (one of):
+
+\n\n1)Elector's photo identity card
+\n2)Ration card having photograph of the applicant
+\n3)Passport
+\n4)Driving licence
+\n5)Arm's license
+\n6)Aadhaar card issued by the Unique Identification Authority of India
+\n7)Photo identity card issued by the Central Government or State Government or a Public Sector Undertaking
+\n8)Pensioner Card having photograph of the applicant
+\n9)Central Government Health Scheme Card or Ex-servicemen Contributory Heath Scheme photo card
+\n10)Certificate of identity in original signed by a Member of Parliament or Member of Legislative Assembly or Municipal Councillor or a Gazetted Officer, as the case may be
+\n11)Bank certificate in original on letter head from the branch (along with name and stamp of the issuing officer) containing duly attested photograph and bank account number of the applicant
+
+
+\n\nII]Address proof document (one of)
+
+\n\n1)copy of the following documents of not more than three months old
+\n2)electricity bill
+\n3)landline telephone or broadband connection bill
+\n4)water bill
+\n5)consumer gas connection card or book or piped gas bill
+\n6)bank account statement
+\n7)depository account statement
+\n8)credit card statement
+\n9)copy of post office pass book having address of the applicant
+\n10)passport
+\n11)passport of the spouse
+\n12)voter ID card
+\n13)latest property tax assessment order
+\n14)driving licence
+\n15)domicile certificate issued by the Government
+\n16)Aadhaar card issued by the UIDAI
+\n17)allotment letter of accommodation issued by the Central Government or State Government of not more than three years old
+\n18)property registration document
+\n19)certificate of address signed by a Member of Parliament or Member of Legislative Assembly or Municipal Councillor or a Gazetted Officer
+\n20)employer’s certificate in original
+
+\n\nIII]Proof of date of birth (one of):
+
+\n\n1)birth certificate issued by the Municipal Authority or any office authorised to issue Birth and Death Certificate by the Registrar of Birth and Deaths or the Indian Consulate as defined in clause (d) of sub section (1) of section 2 of the Citizenship Act, 1955 (57 of 1955)
+pension payment order
+\n2)marriage certificate issued by Registrar of Marriages
+\n3)matriculation certificate
+\n4)passport
+\n5)driving licence
+\n6)domicile certificate issued by the Government
+\n7)affidavit sworn before a magistrate stating the date of birth
+\n\nTo apply online
+\nhttps://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html\n\n\n\n
+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="22sp" />
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7365036231958715/2761986094"
+        tools:ignore="MissingConstraints">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>
